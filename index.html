@@ -115,6 +115,9 @@
 					</div>
 					<a href="#" class="b-menu__btn">
 						<span>load more</span>
+						<svg class="pointer">	
+							<use xlink:href="#pointer"></use>
+						</svg>
 					</a>
 				</div>
 			</div>
@@ -125,51 +128,166 @@
 		<section class="featured">
 			<div class="container">
 				<div class="b-featured">
-					<h2 class="title-style">Featured Dishes</h2>
-					<div class="b-featured__slider">
-						<span class="slider--item"></span>
-						<span class="slider--item"></span>
-						<span class="slider--item"></span>
-						<span class="slider--item"></span>
+					<div class="b-featured__top">
+						<h2 class="title-style">Featured Dishes</h2>
+						<div class="b-featured__slider">
+							<a href=""><span class="slider--item"></span></a>
+							<a href=""><span class="slider--item"></span></a>
+							<a href=""><span class="slider--item"></span></a>
+							<a href=""><span class="slider--item"></span></a>
+						</div>
 					</div>
-					<div class="b-featured__section">
-						<div class="b-featured__block">
-							<img src="	" alt="" class="b-featured__img">
-							<div class="b-featured__block--desc">
-								<h4 class="b-featured__block--title"></h4>
-								<p class="b-featured__block--price"></p>
-							</div>
-							<div class="b-featured__mark"></div>
+				<div class="b-featured__section">
+					<div class="b-featured__block">
+						<div class="b-featured__block--img">
+							<img src="img/featured-1.jpg" alt="meat" class="b-featured__img">
 						</div>
-						<div class="b-featured__block">
-							<img src="	" alt="" class="b-featured__img">
-							<div class="b-featured__block--desc">
-								<h4 class="b-featured__block--title"></h4>
-								<p class="b-featured__block--price"></p>
-							</div>
-							<div class="b-featured__mark"></div>
+						<div class="b-featured__block--desc">
+							<h4 class="b-featured__block--title">Fugiat nulla sint</h4>
+							<p class="b-featured__block--price">$30</p>
 						</div>
-						<div class="b-featured__block">
-							<img src="	" alt="" class="b-featured__img">
-							<div class="b-featured__block--desc">
-								<h4 class="b-featured__block--title"></h4>
-								<p class="b-featured__block--price"></p>
-							</div>
-							<div class="b-featured__mark"></div>
+						<div class="rating_block">
+							<input name="rating" value="5" id="rating_5" type="radio" />
+							<label for="rating_5" class="label_rating"></label>
+							<input name="rating" value="4" id="rating_4" type="radio" />
+							<label for="rating_4" class="label_rating"></label>
+							<input name="rating" value="3" id="rating_3" type="radio" />
+							<label for="rating_3" class="label_rating"></label>
+							<input name="rating" value="2" id="rating_2" type="radio" />
+							<label for="rating_2" class="label_rating"></label>
+							<input name="rating" value="1" id="rating_1" type="radio" />
+							<label for="rating_1" class="label_rating"></label>
 						</div>
+					</div>
+					<div class="b-featured__block">
 						<div class="b-featured__block">
-							<img src="	" alt="" class="b-featured__img">
-							<div class="b-featured__block--desc">
-								<h4 class="b-featured__block--title"></h4>
-								<p class="b-featured__block--price"></p>
+							<div class="b-featured__block--img">
+								<img src="img/featured-2.jpg" alt="spagetti" class="b-featured__img">
 							</div>
-							<div class="b-featured__mark"></div>
+						</div>
+						<div class="b-featured__block--desc">
+							<h4 class="b-featured__block--title">Daute irure dolor</h4>
+							<p class="b-featured__block--price">$24</p>
+						</div>
+						<div class="rating_block rating_block-2">
+							<input name="rating" value="5" id="rating_5" type="radio" />
+							<label for="rating_5" class="label_rating"></label>
+							<input name="rating" value="4" id="rating_4" type="radio" />
+							<label for="rating_4" class="label_rating"></label>
+							<input name="rating" value="3" id="rating_3" type="radio" />
+							<label for="rating_3" class="label_rating"></label>
+							<input name="rating" value="2" id="rating_2" type="radio" />
+							<label for="rating_2" class="label_rating"></label>
+							<input name="rating" value="1" id="rating_1" type="radio" />
+							<label for="rating_1" class="label_rating"></label>
+						</div>
+					</div>
+					<div class="b-featured__block rating_block-3">
+						<div class="b-featured__block">
+							<div class="b-featured__block--img">
+								<img src="img/featured-3.jpg" alt="oat" class="b-featured__img">
+							</div>
+						</div>
+						<div class="b-featured__block--desc">
+							<h4 class="b-featured__block--title">Officia deserunt mollit</h4>
+							<p class="b-featured__block--price">$60</p>
+						</div>
+						<div class="rating_block rating_block-4">
+							<input name="rating" value="5" id="rating_5" type="radio" />
+							<label for="rating_5" class="label_rating"></label>
+							<input name="rating" value="4" id="rating_4" type="radio" />
+							<label for="rating_4" class="label_rating"></label>
+							<input name="rating" value="3" id="rating_3" type="radio" />
+							<label for="rating_3" class="label_rating"></label>
+							<input name="rating" value="2" id="rating_2" type="radio" />
+							<label for="rating_2" class="label_rating"></label>
+							<input name="rating" value="1" id="rating_1" type="radio" />
+							<label for="rating_1" class="label_rating"></label>
+						</div>
+					</div>
+					<div class="b-featured__block">
+						<div class="b-featured__block">
+							<div class="b-featured__block--img">
+								<img src="img/featured-4.jpg" alt="kus-kus" class="b-featured__img">
+							</div>
+						</div>
+						<div class="b-featured__block--desc">
+							<h4 class="b-featured__block--title">Pim minim veniam</h4>
+							<p class="b-featured__block--price">$17</p>
+						</div>
+						<div class="rating_block rating_block">
+							<input name="rating" value="5" id="rating_5" type="radio" />
+							<label for="rating_5" class="label_rating"></label>
+							<input name="rating" value="4" id="rating_4" type="radio" />
+							<label for="rating_4" class="label_rating"></label>
+							<input name="rating" value="3" id="rating_3" type="radio" />
+							<label for="rating_3" class="label_rating"></label>
+							<input name="rating" value="2" id="rating_2" type="radio" />
+							<label for="rating_2" class="label_rating"></label>
+							<input name="rating" value="1" id="rating_1" type="radio" />
+							<label for="rating_1" class="label_rating"></label>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-	</main>
+	<!-- b-gallery -->
+
+	<section class="gallery">
+		<div class="container">
+			<h2 class='title-style'>Gallery</h2>
+			<div class="b-gallery">
+				<img src="img/g-1.jpg" alt="" class="b-gallery__img b-gallery__img--1">
+				<img src="img/g-2.jpg" alt="" class="b-gallery__img b-gallery__img--2">
+				<img src="img/g-3.jpg" alt="" class="b-gallery__img b-gallery__img--3">
+				<img src="img/g-4.jpg" alt="" class="b-gallery__img b-gallery__img--4">
+				<img src="img/g-5.jpg" alt="" class="b-gallery__img b-gallery__img--5">
+			</div>
+		</div>
+	</section>
+
+	<!-- b-footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="b-footer">
+				<div class="b-footer__section">
+					<h4 class="footer-title">New York Restaurant</h4>
+					<address class="footer-address">3926 Anmoore Road New York, NY 10014</address>
+					<a href="trl: 718-749-1714" class="footer-tel">718-749-1714</a>
+				</div>
+				<div class="b-footer__section">
+					<h4 class="footer-title">France Restaurant</h4>
+					<address class="footer-address">68, rue  de la Couronne 75002 PARIS</address>
+					<a href="tel: 02.94.23.69.56" class="footer-tel">02.94.23.69.56</a>
+				</div>
+				<ul class="b-footer__menu">
+					<nav>
+						<li class="b-footer__menu--item"><a href="#">Blog</a></li>
+						<li class="b-footer__menu--item"><a href="#">Careers</a></li>
+						<li class="b-footer__menu--item"><a href="#">Privacy Policy</a></li>
+						<li class="b-footer__menu--item"><a href="#">Contact</a></li>
+					</nav>
+				</ul>
+				<div class="b-footer__contact">
+					<img src="img/logo-light.png" alt="" class="b-footer__logo">
+					<p class="b-footer__rights">© All Rights Reserved 2014.</p>
+					<p class="b-footer__link">Find More at <a href="#">Pixelhint.com</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- svg -->
+
+	<svg class='visually-hidden'>
+		<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="7px">
+			<path id="pointer" fill-rule="evenodd"  fill="rgb(183, 183, 183)" d="M0.656,1.706 L5.656,6.664 L10.656,1.706 L9.302,0.343 L5.656,3.957 L2.010,0.343 L0.656,1.706 Z"/>
+		</symbol>
+	</svg>
+</main>
 </body>
 </html>
